@@ -1,0 +1,24 @@
+name: ModSiren
+main: us.william.modsiren.ModSiren
+version: 4.5
+commands:
+    siren:
+        description: Signal for Help
+        usage:
+            /siren
+    report:
+        decription: Reports Illegal Activity
+        usage:
+            /report
+    reply:
+        description: Teleport to accused player
+        usage:
+            /reply
+    Shelp:
+        description: Ingame help command
+        usage:
+            /Shelp
+    JSiren:
+        description: Removing the filth one at a time!
+        usage:
+            /JSiren
