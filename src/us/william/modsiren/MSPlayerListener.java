@@ -12,13 +12,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerListener;
 
-public class MSPlayerListener extends PlayerListener
-{
+public class MSPlayerListener extends PlayerListener{
   public static ModSiren plugin;
   public static PermissionHandler permissionHandler;
 
-  public MSPlayerListener(ModSiren instance)
-  {
+  public MSPlayerListener(ModSiren instance){
     plugin = instance;
   }
 
