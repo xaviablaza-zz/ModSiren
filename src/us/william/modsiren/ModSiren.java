@@ -46,7 +46,8 @@ public class ModSiren extends JavaPlugin {
 	protected static String REPEATMODTWO_MESSAGE = "Secondary Line-for extraspace!";
 
 	@Override
-	public void onDisable(){
+	public void onDisable()
+	{
 		log.info(getDescription().getName() + " version " + getDescription().getVersion() + " unloaded.");
 	}
 	@Override
