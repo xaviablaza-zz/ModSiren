@@ -136,8 +136,7 @@ public class ModSiren extends JavaPlugin {
 			return;
 		}
 		permissionHandler = ((Permissions)permissionsPlugin).getHandler();
-		log.info("[MOD SIREN] Found and will use plugin " + ((Permissions)permissionsPlugin).getDescription().getFullName());
-		{
+		log.info("[MOD SIREN] Found and will use plugin " + ((Permissions)permissionsPlugin).getDescription().getFullName());{
 		}
 		Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable(){
 			public void run(){
