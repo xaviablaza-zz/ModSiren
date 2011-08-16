@@ -14,15 +14,12 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.Event;
 import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.config.Configuration;
 import com.matejdro.bukkit.jail.*;
 
 public class ModSiren extends JavaPlugin {
-	private final MSPlayerListener PlayerListener = new MSPlayerListener(this);
 	private static final Logger log = Logger.getLogger("Minecraft");
 	public static PermissionHandler permissionHandler;
 	public static JailAPI jail;
@@ -60,8 +57,6 @@ public class ModSiren extends JavaPlugin {
 		loadConfig();
 		setupPermissions();
 		log.info(getDescription().getName() + " version " + getDescription().getVersion() + " loaded.");
-		PluginManager pm = getServer().getPluginManager();
-		pm.registerEvent(Event.Type.PLAYER_DROP_ITEM, this.PlayerListener, Event.Priority.High, this);
 	}
 	public void loadConfig(){
 		Configuration config = getConfiguration();
