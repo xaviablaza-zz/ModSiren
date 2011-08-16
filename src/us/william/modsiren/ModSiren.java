@@ -1,3 +1,8 @@
+//This work is licensed under the Creative Commons Attribution-NoDerivs 3.0 United States License. 
+//To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/3.0/us/ 
+//or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+// WANNA USE MY CODE???? GIVE ME CREDIT!
 package us.william.modsiren;
 
 import com.nijiko.permissions.PermissionHandler;
